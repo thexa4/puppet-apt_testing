@@ -1,0 +1,21 @@
+{
+  "name": "thexa4-apt_testing",
+  "version": "0.1.0",
+  "author": "thexa4",
+  "summary": "Installs the apt testing repo",
+  "license": "MIT",
+  "source": "https://github.com/thexa4/puppet-apt_testing",
+  "project_page": "https://github.com/thexa4/puppet-apt_testing",
+  "issues_url": "https://github.com/thexa4/puppet-apt_testing/issues",
+  "dependencies": [
+	  "puppetlabs/apt"
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease":[ "8" ]
+    }
+  ]
+}
+
