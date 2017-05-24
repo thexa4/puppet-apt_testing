@@ -1,7 +1,8 @@
 class apt_testing {
-  class { "apt::backports":
-    location => "http://ftp.debian.org/debian",
+  apt::source { "testing":
+    location => "http://httpredir.debian.org/debian",
     release  => "testing",
     repos    => "main",
+    pin      => 200,
   }
 }
